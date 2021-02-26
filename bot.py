@@ -3,7 +3,7 @@ import urllib.request, json, os
 from urllib.request import urlretrieve
 
 token = '1402982719:AAGVOdHKL1wJ-UZ-RBK9onqxdyNd4QFselQ'
-PORT = int(os.environ('PORT','8443'))
+PORT = int(os.environ['PORT','8443'])
 
 endpoint_link = "https://saavn.sumit.codes/search/"
 link = ""
