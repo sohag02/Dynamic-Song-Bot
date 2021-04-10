@@ -111,6 +111,7 @@ dispatcher.add_handler(CommandHandler('help', help))
 dispatcher.add_handler(CommandHandler('start', start))
 dispatcher.add_handler(MessageHandler(Filters.all & (~ Filters.caption_entity('bot_command')), message))
 
-updater.start_webhook(listen="0.0.0.0", port=PORT, url_path=token)
-updater.bot.set_webhook("https://dynamic-song-bot.herokuapp.com/")
+'''updater.start_webhook(listen="0.0.0.0", port=PORT, url_path=token)
+updater.bot.set_webhook("https://dynamic-song-bot.herokuapp.com/")'''
+updater.start_polling()
 updater.idle()
