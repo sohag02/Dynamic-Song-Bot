@@ -2,7 +2,7 @@ from telegram.ext import Updater, CommandHandler, Filters, MessageHandler
 import urllib.request, json, os 
 from urllib.request import urlretrieve
 
-token = '1402982719:AAGVOdHKL1wJ-UZ-RBK9onqxdyNd4QFselQ'
+token = '1402982719:AAFKSJruj1trbs8UQTNZDrHiXRhLvctwDYc'
 PORT = int(os.environ.get('PORT', 8443))
 
 '''ON_HEROKU = os.environ.get('ON_HEROKU')
